@@ -55,19 +55,40 @@ section {
     font-size: 4vw;
 }
 
+section > p {
+    padding-bottom: 2em;
+}
+
 .normal {
     background-color: white;
     color: black;
 }
 
 .imagem {
-    background-color: rgba(0, 0, 0, 0.411);
+    background-color: rgba(0, 0, 0, 0.171);
     color: rgb(255, 255, 255);
+    box-shadow: inset 5px 5px 20px 0px black;
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 .imagem > p {
-    background-color: rgba(0, 0, 0, 0.63);
+    background-color: rgba(0, 0, 0, 0.356);
     width: 300px;
+    text-shadow: 1px 1px 1px rgb(0, 0, 0);
+}
+
+#flor {
+    background-image: url(/cordel/imagens/background001.jpg);
+    background-position: right center;
+    background-size: cover;
+
+}
+
+#papel {
+    background-image: url(/cordel/imagens/background002.jpg);
+    background-position: right center;
+    background-size: cover;
 }
 
 
